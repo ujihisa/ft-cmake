@@ -1,0 +1,15 @@
+"script_name": ft-cmake
+"script_id": "4803"
+"script_type": ftplugin
+"script_package": "{script_name}-{version}.tgz"
+"required_vim_version": '7.3'
+"summary": dict and snippet for cmake files (e.g. CMakeLists.txt)
+"detailed_description": |
+  dict and snippet for cmake files (e.g. CMakeLists.txt)
+
+  * http://github.com/ujihisa/ft-cmake
+"install_details": |
+  NeoBundle 'ujihisa/ft-cmake'
+"versions":
+  - '1.0': Initial upload
+# vim: filetype=yaml
