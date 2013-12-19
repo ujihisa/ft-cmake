@@ -1,0 +1,5 @@
+snippet     helloworld.cpp
+options     head
+  add_executable(${1:hello} ${2:hello.cpp})
+  set(CMAKE_CXX_COMPILER "${3:clang++}")
+  set(CMAKE_CXX_FLAGS "-Wall -std=c++11")
